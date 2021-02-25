@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-      <Header />
-        <div id= "content" class="content">
-        <router-view></router-view>
+    <Header />
+    <div id="content" class="content">
+      <div>
+        <!--    <router-link to="/">Home </router-link>
+        <router-link to="/about"> About </router-link> -->
+        <router-view />
       </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Header from "./components/layout/Header.vue";
+import Header from './components/layout/Header.vue';
 
 export default {
-  name: "App",
+  name: 'app',
   components: {
     Header,
   },
