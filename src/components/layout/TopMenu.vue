@@ -50,6 +50,6 @@
 
 <script>
 export default {
-  name: 'header',
-};
+  name: 'TopMenu',
+}
 </script>

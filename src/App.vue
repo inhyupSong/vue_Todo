@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <TopMenu />
     <div id="content" class="content">
       <div>
         <!--    <router-link to="/">Home </router-link>
@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import Header from './components/layout/Header.vue';
+import TopMenu from './components/layout/TopMenu.vue'
 
 export default {
   name: 'app',
   components: {
-    Header,
+    TopMenu,
   },
-};
+}
 </script>
 
 <style></style>
